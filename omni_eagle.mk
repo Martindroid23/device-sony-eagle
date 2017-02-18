@@ -21,10 +21,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += PRIVATE_BUILD_DESC="D2303-user 18.3.1.C.0.21 2n9
 # Assert
 TARGET_OTA_ASSERT_DEVICE := D2302,D2303,D2305,D2306,D2403,D2406,eagle
 
-# Bootlogo
-PRODUCT_COPY_FILES += \
-     device/sony/eagle/rootdir/logo.rle:root/logo.rle
-
 # Override Product Name for Lineage
 PRODUCT_NAME		:= omni_eagle
 PRODUCT_DEVICE		:= eagle
