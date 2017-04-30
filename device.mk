@@ -21,7 +21,9 @@ PRODUCT_COPY_FILES := \
     device/sony/eagle/rootdir/system/etc/thermal-engine-8226.conf:system/etc/thermal-engine-8226.conf \
     device/sony/eagle/rootdir/system/etc/libnfc-brcm.conf:system/etc/libnfc-brcm.conf \
     device/sony/eagle/rootdir/system/etc/libnfc-nxp.conf:system/etc/libnfc-nxp.conf \
-    device/sony/eagle/rootdir/system/lib/hw/nfc_nci.pn54x.default.so:system/lib/hw/nfc_nci.pn54x.default.so
+    device/sony/eagle/rootdir/system/lib/hw/nfc_nci.pn54x.default.so:system/lib/hw/nfc_nci.pn54x.default.so \
+    device/sony/eagle/rootdir/system/etc/wifi/init.cci.wifi.mac.bootup.sh:system/etc/wifi/init.cci.wifi.mac.bootup.sh \
+    device/sony/eagle/rootdir/system/etc/wifi/WCNSS_qcom_cfg.ini:system/etc/wifi/WCNSS_qcom_cfg.ini
 
 # Device Specific Permissions
 PRODUCT_COPY_FILES += \
