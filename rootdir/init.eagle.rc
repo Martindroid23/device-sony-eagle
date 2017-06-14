@@ -31,6 +31,10 @@ on fs
     swapon_all /fstab.eagle
     write /sys/kernel/boot_adsp/boot 1
 
+    wait /dev/block/platform/msm_sdcc.1/by-name/persist
+    mount ext4 /dev/block/platform/msm_sdcc.1/by-name/persist /persist nosuid nodev barrier=1
+    restorecon_recursive /persist
+
 on boot
     # Illumination bar
     chown system system /sys/class/illumination/0
