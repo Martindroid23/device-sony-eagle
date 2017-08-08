@@ -1,5 +1,5 @@
 # Bootanimation
-TARGET_BOOTANIMATION_SIZE := 720x407
+TARGET_BOOTANIMATION_SIZE := 480x320
 
 TARGET_KERNEL_CONFIG := aosp_yukon_eagle_defconfig
 
