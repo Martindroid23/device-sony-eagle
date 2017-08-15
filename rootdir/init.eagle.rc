@@ -164,6 +164,12 @@ service hciattach /system/bin/sh /system/etc/init.qcom.bt.sh
     disabled
     oneshot
 
+# ADSPRCD
+service adsprpcd /system/bin/adsprpcd
+   class main
+   user media
+   group media
+
 on property:bluetooth.hciattach=true
     start hciattach
 
