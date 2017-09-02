@@ -53,7 +53,8 @@ PRODUCT_PACKAGES += \
 
 # Camera shim packages
 PRODUCT_PACKAGES += \
-    libshim_camera
+    libshim_camera \
+    libatomic_camera
 
 # BoringSSL
 #PRODUCT_PACKAGES += \
